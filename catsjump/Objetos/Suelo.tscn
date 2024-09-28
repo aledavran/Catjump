@@ -12,7 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://ujy6gx7r5ny3" path="res://Imagenes/PURR PLATAFORMA/FONDO CIELO.jpg" id="10_4fftq"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1i8pb"]
-size = Vector2(1916.45, 502.706)
+size = Vector2(9194.99, 502.706)
 
 [node name="O_Escenas" type="StaticBody2D"]
 
@@ -24,12 +24,13 @@ texture = ExtResource("1_fy4qc")
 
 [node name="FondoPasto2" type="Sprite2D" parent="FondoPasto"]
 z_index = -4
-position = Vector2(1907.03, 0.000610352)
+position = Vector2(9191.79, 0.000610352)
+scale = Vector2(8.58829, 1)
 texture = ExtResource("1_fy4qc")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 z_index = -1
-position = Vector2(959.037, 886.303)
+position = Vector2(4598.31, 886.303)
 shape = SubResource("RectangleShape2D_1i8pb")
 
 [node name="PastoAtras1" type="Sprite2D" parent="."]
@@ -40,31 +41,43 @@ texture = ExtResource("2_kdvjs")
 
 [node name="PastoAtras2" type="Sprite2D" parent="PastoAtras1"]
 z_index = -2
-position = Vector2(1893.86, 0)
+position = Vector2(1880.18, 2.82202)
 texture = ExtResource("2_kdvjs")
 
 [node name="PastoAtras3" type="Sprite2D" parent="PastoAtras1"]
 z_index = -2
-position = Vector2(3798.74, 0)
+position = Vector2(3800.18, 2.82202)
 texture = ExtResource("2_kdvjs")
 
-[node name="Nube3" type="Sprite2D" parent="."]
-z_index = -9
-position = Vector2(1107.18, 204.015)
-scale = Vector2(0.5, 0.5)
-texture = ExtResource("7_8l8u5")
+[node name="PastoAtras4" type="Sprite2D" parent="PastoAtras1"]
+z_index = -2
+position = Vector2(5720.18, 2.82202)
+texture = ExtResource("2_kdvjs")
 
-[node name="Nube2" type="Sprite2D" parent="."]
-z_index = -9
-position = Vector2(776.656, 209.411)
-scale = Vector2(0.5, 0.5)
-texture = ExtResource("6_u1of1")
+[node name="PastoAtras5" type="Sprite2D" parent="PastoAtras1"]
+z_index = -2
+position = Vector2(7624.18, 2.82202)
+texture = ExtResource("2_kdvjs")
 
-[node name="Nube1" type="Sprite2D" parent="."]
-z_index = -9
-position = Vector2(279.681, 265.859)
-scale = Vector2(0.5, 0.5)
-texture = ExtResource("5_grdo6")
+[node name="PastoAtras6" type="Sprite2D" parent="PastoAtras1"]
+z_index = -2
+position = Vector2(9544.18, 2.82202)
+texture = ExtResource("2_kdvjs")
+
+[node name="PastoAtras7" type="Sprite2D" parent="PastoAtras1"]
+z_index = -2
+position = Vector2(11464.2, 2.82202)
+texture = ExtResource("2_kdvjs")
+
+[node name="PastoAtras8" type="Sprite2D" parent="PastoAtras1"]
+z_index = -2
+position = Vector2(13384.2, 2.82202)
+texture = ExtResource("2_kdvjs")
+
+[node name="PastoAtras9" type="Sprite2D" parent="PastoAtras1"]
+z_index = -2
+position = Vector2(15304.2, 2.82202)
+texture = ExtResource("2_kdvjs")
 
 [node name="Arbusto1" type="Sprite2D" parent="."]
 z_index = -2
@@ -96,5 +109,80 @@ texture = ExtResource("9_4taka")
 
 [node name="FondoCielo" type="Sprite2D" parent="."]
 z_index = -11
-position = Vector2(957.475, 527.272)
+position = Vector2(5048, 552)
+scale = Vector2(5.36, 2.017)
 texture = ExtResource("10_4fftq")
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Nube3" type="Sprite2D" parent="Node2D"]
+z_index = -9
+position = Vector2(1107.18, 204.015)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("7_8l8u5")
+
+[node name="Nube2" type="Sprite2D" parent="Node2D"]
+z_index = -9
+position = Vector2(776.656, 209.411)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("6_u1of1")
+
+[node name="Nube1" type="Sprite2D" parent="Node2D"]
+z_index = -9
+position = Vector2(279.681, 265.859)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("5_grdo6")
+
+[node name="Nube4" type="Sprite2D" parent="Node2D"]
+z_index = -9
+position = Vector2(2124, 332)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("7_8l8u5")
+
+[node name="Nube5" type="Sprite2D" parent="Node2D"]
+z_index = -9
+position = Vector2(2572, 156)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("6_u1of1")
+
+[node name="Nube6" type="Sprite2D" parent="Node2D"]
+z_index = -9
+position = Vector2(3164, 404)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("5_grdo6")
+
+[node name="Nube7" type="Sprite2D" parent="Node2D"]
+z_index = -9
+position = Vector2(5082.5, 226.515)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("7_8l8u5")
+
+[node name="Nube8" type="Sprite2D" parent="Node2D"]
+z_index = -9
+position = Vector2(4751.98, 231.911)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("6_u1of1")
+
+[node name="Nube9" type="Sprite2D" parent="Node2D"]
+z_index = -9
+position = Vector2(4255, 288.359)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("5_grdo6")
+
+[node name="Nube10" type="Sprite2D" parent="Node2D"]
+z_index = -9
+position = Vector2(6099.32, 354.5)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("7_8l8u5")
+
+[node name="Nube11" type="Sprite2D" parent="Node2D"]
+z_index = -9
+position = Vector2(6547.32, 178.5)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("6_u1of1")
+
+[node name="Nube12" type="Sprite2D" parent="Node2D"]
+z_index = -9
+position = Vector2(7139.32, 426.5)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("5_grdo6")

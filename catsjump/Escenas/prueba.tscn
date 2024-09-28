@@ -20,29 +20,80 @@ drag_top_margin = 0.4
 drag_bottom_margin = 0.4
 editor_draw_drag_margin = true
 
-[node name="StaticBody2D2" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(280.441, 616.975)
-
-[node name="StaticBody2D3" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(634.026, 623.924)
-
-[node name="StaticBody2D4" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(413.092, 573.304)
-
-[node name="StaticBody2D5" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(634.441, 573.984)
-
-[node name="StaticBody2D6" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(907.037, 579.785)
-
-[node name="StaticBody2D7" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(1024.29, 522.219)
-
-[node name="StaticBody2D8" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(1183.66, 617.074)
-
-[node name="StaticBody2D9" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(1871.25, 621.281)
-
 [node name="O_Escenas" parent="." instance=ExtResource("4_eb2yk")]
 position = Vector2(-8.88159, 6.08768)
+
+[node name="ObjetosColisiones" type="Node2D" parent="."]
+position = Vector2(7403.52, 521.773)
+
+[node name="StaticBody2D2" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(-7123.08, 95.2017)
+
+[node name="StaticBody2D3" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(-6769.49, 102.151)
+
+[node name="StaticBody2D4" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(-6990.43, 51.5308)
+
+[node name="StaticBody2D5" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(-6769.08, 52.2108)
+
+[node name="StaticBody2D6" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(-6496.48, 58.0117)
+
+[node name="StaticBody2D7" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(-6379.23, 0.44574)
+
+[node name="StaticBody2D8" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(-6219.86, 95.3007)
+
+[node name="StaticBody2D9" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(-5532.27, 99.5078)
+
+[node name="StaticBody2D" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(60.832, 95.3661)
+
+[node name="StaticBody2D10" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(60.436, 43.9548)
+
+[node name="StaticBody2D11" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(59.4941, -7.29034)
+
+[node name="StaticBody2D12" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(-5532.64, 53.3256)
+
+[node name="StaticBody2D13" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(-4993.41, 92.2496)
+
+[node name="StaticBody2D14" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(-4851.92, 38.856)
+
+[node name="StaticBody2D15" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(-4253.91, 97.5889)
+
+[node name="StaticBody2D16" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(-3457.59, 99.5955)
+
+[node name="StaticBody2D17" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(-4095.01, 42.5135)
+
+[node name="StaticBody2D18" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(-3966.57, -28.8388)
+
+[node name="StaticBody2D19" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(-2805.91, 32.9999)
+
+[node name="StaticBody2D20" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(-2212.02, 91.2283)
+
+[node name="StaticBody2D21" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(-1665.95, -4.01587)
+
+[node name="StaticBody2D22" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(-1265.93, 97.5779)
+
+[node name="StaticBody2D23" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(-853.204, 27.7322)
+
+[node name="StaticBody2D24" parent="ObjetosColisiones" instance=ExtResource("2_cxgrj")]
+position = Vector2(-472.228, 97.5779)
