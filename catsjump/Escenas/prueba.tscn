@@ -103,5 +103,6 @@ position = Vector2(-472.228, 97.5779)
 [node name="MobileControls" parent="." instance=ExtResource("4_6450f")]
 
 [node name="CaballitoAmarillo" type="Sprite2D" parent="."]
-position = Vector2(211.88, 453.766)
+z_index = -9
+position = Vector2(1107.88, 435.766)
 texture = ExtResource("5_bcbip")
