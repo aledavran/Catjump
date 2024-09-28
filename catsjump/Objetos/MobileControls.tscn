@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://c7hsa3dhlfnuo"]
+
+[ext_resource type="Texture2D" uid="uid://eedc56un8rva" path="res://Imagenes/PURR PLATAFORMA/SaltoProv.png" id="1_ae00o"]
+
+[node name="MobileControls" type="CanvasLayer"]
+
+[node name="JUMP" type="TouchScreenButton" parent="."]
+position = Vector2(1163.51, 614.836)
+scale = Vector2(0.736697, 0.701877)
+texture_normal = ExtResource("1_ae00o")
+action = "Salto"
