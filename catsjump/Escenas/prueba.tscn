@@ -103,5 +103,5 @@ position = Vector2(-472.228, 97.5779)
 [node name="MobileControls" parent="." instance=ExtResource("4_6450f")]
 
 [node name="IdleNaranjoso" type="Sprite2D" parent="."]
-position = Vector2(913.416, 186.534)
+position = Vector2(1891.11, 418.36)
 texture = ExtResource("5_84fbk")
