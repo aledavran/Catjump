@@ -8,30 +8,41 @@
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_q17sv")]
 position = Vector2(0, 640)
 
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+offset = Vector2(400, 0)
+zoom = Vector2(1.2, 1.2)
+limit_left = -400
+limit_bottom = 720
+position_smoothing_enabled = true
+drag_vertical_enabled = true
+drag_top_margin = 0.4
+drag_bottom_margin = 0.4
+editor_draw_drag_margin = true
+
 [node name="StaticBody2D" parent="." instance=ExtResource("2_cxgrj")]
 position = Vector2(960, 704)
 scale = Vector2(40.28, 1)
 
 [node name="StaticBody2D2" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(384, 640)
+position = Vector2(336, 656)
 
 [node name="StaticBody2D3" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(512, 576)
+position = Vector2(689.585, 654.94)
 
 [node name="StaticBody2D4" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(640, 640)
+position = Vector2(468.651, 656.379)
 
 [node name="StaticBody2D5" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(768, 576)
+position = Vector2(690, 605)
 
 [node name="StaticBody2D6" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(896, 512)
+position = Vector2(962.596, 653.516)
 
 [node name="StaticBody2D7" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(1216, 640)
+position = Vector2(1079.85, 595.95)
 
 [node name="StaticBody2D8" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(1472, 640)
+position = Vector2(1231.73, 653.348)
 
 [node name="StaticBody2D9" parent="." instance=ExtResource("2_cxgrj")]
 position = Vector2(1856, 640)

@@ -3,13 +3,14 @@
 [ext_resource type="Texture2D" uid="uid://cxy6pluatx7km" path="res://Empty.png" id="1_syrtu"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jwk7f"]
-size = Vector2(64, 64)
+size = Vector2(50, 50)
 
 [node name="StaticBody2D" type="StaticBody2D" groups=["Kill"]]
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="." groups=["Kill"]]
 scale = Vector2(0.2, 0.2)
 texture = ExtResource("1_syrtu")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["Kill"]]
 shape = SubResource("RectangleShape2D_jwk7f")
+one_way_collision = true
