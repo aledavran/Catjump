@@ -104,5 +104,5 @@ position = Vector2(-472.228, 97.5779)
 
 [node name="CaballitoAmarillo" type="Sprite2D" parent="."]
 z_index = -9
-position = Vector2(615, 435)
+position = Vector2(701, 433)
 texture = ExtResource("5_4rko2")
