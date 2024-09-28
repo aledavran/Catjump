@@ -1,12 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://55dlkj4yfxrr"]
+[gd_scene load_steps=4 format=3 uid="uid://55dlkj4yfxrr"]
 
 [ext_resource type="PackedScene" uid="uid://bof40fqona2kj" path="res://Objetos/jugador.tscn" id="1_q17sv"]
 [ext_resource type="PackedScene" uid="uid://dk6q3i178l650" path="res://Objetos/obj_bloque.tscn" id="2_cxgrj"]
+[ext_resource type="PackedScene" uid="uid://c1wek6g361fod" path="res://Objetos/Suelo.tscn" id="4_eb2yk"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_q17sv")]
-position = Vector2(0, 640)
+position = Vector2(0, 478.962)
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 offset = Vector2(400, 0)
@@ -19,30 +20,29 @@ drag_top_margin = 0.4
 drag_bottom_margin = 0.4
 editor_draw_drag_margin = true
 
-[node name="StaticBody2D" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(960, 704)
-scale = Vector2(40.28, 1)
-
 [node name="StaticBody2D2" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(336, 656)
+position = Vector2(280.441, 616.975)
 
 [node name="StaticBody2D3" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(689.585, 654.94)
+position = Vector2(634.026, 623.924)
 
 [node name="StaticBody2D4" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(468.651, 656.379)
+position = Vector2(413.092, 573.304)
 
 [node name="StaticBody2D5" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(690, 605)
+position = Vector2(634.441, 573.984)
 
 [node name="StaticBody2D6" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(962.596, 653.516)
+position = Vector2(907.037, 579.785)
 
 [node name="StaticBody2D7" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(1079.85, 595.95)
+position = Vector2(1024.29, 522.219)
 
 [node name="StaticBody2D8" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(1231.73, 653.348)
+position = Vector2(1183.66, 617.074)
 
 [node name="StaticBody2D9" parent="." instance=ExtResource("2_cxgrj")]
-position = Vector2(1856, 640)
+position = Vector2(1871.25, 621.281)
+
+[node name="O_Escenas" parent="." instance=ExtResource("4_eb2yk")]
+position = Vector2(-8.88159, 6.08768)
