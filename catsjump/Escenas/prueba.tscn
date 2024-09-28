@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://55dlkj4yfxrr"]
+[gd_scene load_steps=6 format=3 uid="uid://55dlkj4yfxrr"]
 
 [ext_resource type="PackedScene" uid="uid://bof40fqona2kj" path="res://Objetos/jugador.tscn" id="1_q17sv"]
 [ext_resource type="PackedScene" uid="uid://dk6q3i178l650" path="res://Objetos/obj_bloque.tscn" id="2_cxgrj"]
 [ext_resource type="PackedScene" uid="uid://c7hsa3dhlfnuo" path="res://Objetos/MobileControls.tscn" id="4_6450f"]
 [ext_resource type="PackedScene" uid="uid://c1wek6g361fod" path="res://Objetos/Suelo.tscn" id="4_eb2yk"]
+[ext_resource type="Texture2D" uid="uid://d4fbiu1juhf8k" path="res://Imagenes/IDLE NARANJOSO.png" id="5_84fbk"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -100,3 +101,7 @@ position = Vector2(-853.204, 27.7322)
 position = Vector2(-472.228, 97.5779)
 
 [node name="MobileControls" parent="." instance=ExtResource("4_6450f")]
+
+[node name="IdleNaranjoso" type="Sprite2D" parent="."]
+position = Vector2(913.416, 186.534)
+texture = ExtResource("5_84fbk")
